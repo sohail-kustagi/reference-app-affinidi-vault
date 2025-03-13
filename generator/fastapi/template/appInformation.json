@@ -1,7 +1,60 @@
 {
-    "affinidi-fastapi-authlib" : {
-        "redirectUris" : {
-            "callbackUrl" : "http://127.0.0.1:8200/auth"
+    "affinidi-fastapi-authlib": {
+        "redirectUris": {
+            "callbackUrl": "http://127.0.0.1:8200/auth"
+        },
+        "metadata": {
+            "name": "Affinidi Login Integration using FastAPI and Authlib",
+            "description": "A code sample using FastAPI framework and uses AuthLib library to enable passwordless login using Affinidi IDP.",
+            "idp": {
+                "name": "Affinidi",
+                "link": "https://www.affinidi.com/product/affinidi-login"
+            },
+            "framework": {
+                "name": "FastAPI",
+                "icon": "fastapi-logo.svg",
+                "link": "https://fastapi.tiangolo.com/"
+            },
+            "language": {
+                "name": "Python",
+                "icon": "python-logo.svg",
+                "link": "https://www.python.org/"
+            },
+            "library": {
+                "name": "authlib",
+                "icon": "",
+                "link": "https://authlib.org/"
+            }
+        }
+    },
+    "auth0-fastapi-authlib": {
+        "redirectUris": {
+            "callbackUrl": "http://127.0.0.1:8201/auth",
+            "logOutUrl": "http://127.0.0.1:8201",
+            "webOriginUrl": "http://127.0.0.1:8201"
+        },
+        "metadata": {
+            "name": "Affinidi Login Integration using FastAPI, Authlib and Auth0",
+            "description": "A code sample using FastAPI framework and uses AuthLib library to enable passwordless login using Auth0 IDP.",
+            "idp": {
+                "name": "Auth0",
+                "link": "https://auth0.com/"
+            },
+            "framework": {
+                "name": "FastAPI",
+                "icon": "fastapi-logo.svg",
+                "link": "https://fastapi.tiangolo.com/"
+            },
+            "language": {
+                "name": "Python",
+                "icon": "python-logo.svg",
+                "link": "https://www.python.org/"
+            },
+            "library": {
+                "name": "authlib",
+                "icon": "",
+                "link": "https://authlib.org/"
+            }
         }
     }
 }

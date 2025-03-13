@@ -1,7 +1,58 @@
 {
-    "affinidi-flask-authlib" : {
-        "redirectUris" : {
-            "callbackUrl" : "http://127.0.0.1:8100/auth"
+    "affinidi-flask-authlib": {
+        "redirectUris": {
+            "callbackUrl": "http://127.0.0.1:8100/auth"
+        },
+        "metadata": {
+            "name": "Affinidi Login Integration using Flask and Authlib",
+            "description": "A code sample using Flask framework and uses AuthLib library to enable passwordless login using Affinidi IDP.",
+            "idp": {
+                "name": "Affinidi",
+                "link": "https://www.affinidi.com/product/affinidi-login"
+            },
+            "framework": {
+                "name": "Flask",
+                "icon": "flask-logo.svg"
+            },
+            "language": {
+                "name": "Python",
+                "icon": "python-logo.svg",
+                "link": "https://www.python.org/"
+            },
+            "library": {
+                "name": "authlib",
+                "icon": "",
+                "link": "https://authlib.org/"
+            }
+        }
+    },
+    "auth0-flask-authlib": {
+        "redirectUris": {
+            "callbackUrl": "http://127.0.0.1:8101/auth",
+            "logOutUrl": "http://127.0.0.1:8101",
+            "webOriginUrl": "http://127.0.0.1:8101"
+        },
+        "metadata": {
+            "name": "Affinidi Login Integration using Flask, Authlib and Auth0",
+            "description": "A code sample using Flask framework and uses AuthLib library to enable passwordless login using Auth0 IDP.",
+            "idp": {
+                "name": "Auth0",
+                "link": "https://auth0.com/"
+            },
+            "framework": {
+                "name": "Flask",
+                "icon": "flask-logo.svg"
+            },
+            "language": {
+                "name": "Python",
+                "icon": "python-logo.svg",
+                "link": "https://www.python.org/"
+            },
+            "library": {
+                "name": "authlib",
+                "icon": "",
+                "link": "https://authlib.org/"
+            }
         }
     }
 }

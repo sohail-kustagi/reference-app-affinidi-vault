@@ -2,11 +2,57 @@
     "affinidi-laravel-socialite" : {
         "redirectUris" : {
             "callbackUrl": "http://localhost:8010/login/affinidi/callback"
+        },
+        "metadata": {
+            "name": "Affinidi Login Integration using Laravel and Socialite",
+            "description": "A code sample using Laravel framework and uses Socialite library to enable passwordless login using Affinidi IDP.",
+            "idp": {
+                "name": "Affinidi",
+                "link": "https://www.affinidi.com/product/affinidi-login"
+            },
+            "framework": {
+                "name": "Laravel",
+                "icon": "laravel-logo.svg",
+                "link": "https://laravel.com/"
+            },
+            "language": {
+                "name": "PHP",
+                "icon": "php-logo.svg",
+                "link": "https://www.php.net/"
+            },
+            "library": {
+                "name": "Socialite",
+                "icon": "",
+                "link": "https://laravel.com/docs/11.x/socialite"
+            }
         }
     },
     "affinidi-laravel-hybridauth" : {
         "redirectUris" : {
             "callbackUrl": "http://localhost:8020/login/affinidi/callback"
+        },
+        "metadata": {
+            "name": "Affinidi Login Integration using Laravel and Hybridauth",
+            "description": "A code sample using Laravel framework and uses Hybridauth library to enable passwordless login using Affinidi IDP.",
+            "idp": {
+                "name": "Affinidi",
+                "link": "https://www.affinidi.com/product/affinidi-login"
+            },
+            "framework": {
+                "name": "Laravel",
+                "icon": "laravel-logo.svg",
+                "link": "https://laravel.com/"
+            },
+            "language": {
+                "name": "PHP",
+                "icon": "php-logo.svg",
+                "link": "https://www.php.net/"
+            },
+            "library": {
+                "name": "Hybridauth",
+                "icon": "",
+                "link": "https://hybridauth.github.io/"
+            }
         }
     }
 }
